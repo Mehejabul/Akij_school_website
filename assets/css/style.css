@@ -73,8 +73,8 @@ p {
     margin-left: 5px;
  }
 
- .cmn_btn{
-    padding: 7px 20px;
+ .cmn_btn_hov{
+    padding: 15px 20px;
     border: 1px solid var(--black-color);
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -82,6 +82,15 @@ p {
     margin-left: 10px;
     text-transform: uppercase;
     font-weight: 600;
+    transition: .3s linear;
+ }
+
+ .cmn_btn_hov:hover{
+    background-color: var(--orange-color);
+ }
+
+ .banner_rating i{
+    color: #F48020;
  }
 
 
@@ -171,6 +180,204 @@ button.btn-close {
     border-radius: 20px;
     font-weight: 800;
 }
+
+
+/* =======================
+      sidebar menu start
+=========================== */
+
+.sidebar_menu{
+    margin-top: 40px;
+}
+
+.offcanvas_main_menu li {
+    list-style: none;
+    position: relative;
+}
+
+.offcanvas_main_menu li a {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    color: #000000;
+    transition: .3s linear;
+}
+
+.offcanvas_main_menu li a:hover{
+    color: var(--blue-color);
+}
+
+.offcanvas_main_menu li span.menu-expand {
+    position: absolute;
+    right: 0;
+}
+
+
+.sidebar_btn{
+    margin: 20px 0px;
+}
+
+.contact_icon i {
+    padding: 5px 5px 10px 0px;
+    color: var(--orange-color);
+    font-size: 24px;
+}
+
+.icon_number{
+   display: flex; 
+}
+
+.contact_text{
+    margin-left: 5px;
+}
+
+.contact_text a{
+    color: red;
+}
+
+.contact_wrapper li{
+ margin: 10px 0px;
+}
+
+.contact_text p{
+    color: var(--blue-color);
+}
+
+/* =======================
+      sidebar menu end
+=========================== */
+
+/* ===========================
+      Banner start
+ ============================== */
+
+ .banner_section{
+   background-repeat: no-repeat !important;
+   background-position-x: right !important;
+   background-position-y: top !important;
+   background-size: contain !important;
+   height: 100VH !important;
+ }
+
+ .banner_left_container{
+  margin-top: 130px;
+ }
+  
+ .banner_middle_text{
+    width: 100%;
+    margin: 20px 0px;
+ }
+ .banner_middle_text h2{
+    font-size: 64px;
+    letter-spacing: -1;
+    font-size: 600;
+    color: var(--blue-color);
+ }
+
+ .banner_paragraph{
+    margin: 20px 0px;
+ }
+
+ .banner_top_text p{
+     color: var(--black-color);
+     font-weight: 600;
+ }
+
+ .banner_rating {
+    margin-right: 150px;
+}
+
+ .banner_paragraph p{
+    font-size: 20px;
+    text-align: justify;
+ }
+
+ .button_rating{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .button_rating{
+    padding: 30px;
+    border-bottom: 1px solid #ebebeb;
+ }
+
+
+
+ .banner_phone_number{
+    display: flex;
+    margin: 20px 0px;
+ }
+
+ .banner_icon{
+    position: relative;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   background-color: var(--blue-color);
+
+ }
+
+
+ .banner_icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+ }
+
+ .icon_number p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-weight: 800;
+    color: var(--black-color);
+    font-size: 20px;
+ }
+
+
+
+
+.up_image  img{
+    max-width: 350px;
+    border-radius: 24px;
+}
+.up_image  img:hover{
+transform: translate(1px, -1px) rotate(1deg);
+cursor: pointer;
+}
+
+ .down_image img{
+  max-width: 350px;
+  border-radius: 24px;
+ }
+
+ .down_image img:hover{
+    transform: translate(1px, -1px) rotate(1deg);
+    cursor: pointer;
+ }
+ .image_wrapper{
+    margin-top: 250px;
+    margin-left: 90px;
+ }
+
+ .image_wrapper{
+       position: relative;
+ }
+
+  .down_image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ }
+
+ /* ===========================
+      Banner End
+=============================== */
 
 
  
