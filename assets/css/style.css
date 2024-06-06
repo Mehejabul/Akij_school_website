@@ -24,6 +24,8 @@ a {
 ul,
 ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .clr {
@@ -522,7 +524,7 @@ button.btn-close {
     content: " ";
     width: 50px;
     height: 3px;
-    background-color: red;
+    background-color: var(--orange-color);
 }
 
 .counter_heading h2::after {
@@ -532,7 +534,7 @@ button.btn-close {
     content: " ";
     width: 50px;
     height: 3px;
-    background-color: white;
+    background-color: var(--blue-color);
     left: 60px;
 }
 
@@ -602,15 +604,319 @@ button.btn-close {
     position: relative;
 }
 
-.overhead{
+.wrapper_text{
     position: absolute;
-    width: 100%;
-    bottom: 10px;
+    width: 90%;
+    bottom: -51px;
     z-index: -1;
+    background-color: var(--orange-color);
+}
+
+.box_btn{
+    padding: 15px 20px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.wrapbb{
+    margin: 20px 0px;
+}
+
+.wrap_pera p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* ================================
+      Counter section end
+=================================== */
+
+
+
+/* ==================================
+     Age specification start 
+=====================================*/
+
+.age_specification_top{
+    text-align: center;
+    margin: 50px 0px;
+    padding-bottom: 50px;
+}
+
+.age_specification_top h3{
+    color: var(--orange-color);
+    font-weight: 600;
+}
+
+.age_specification_top h2{
+    color: var(--sea-color);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.age_specification{
+    margin: 100px 0px;
+   
+}
+
+.age_specification_content{
+    border: 1px solid var(--space--color);
+    border-radius: 24px;
+    position: relative;
+}
+.specification_content_image{
+    padding-right: 30px;
+}
+.specification_content_image img {
+    position: absolute;
+    top:-50px;
+    left: 0;
+    margin-top: 10px;
+    padding-right: 30px;
+    transform: translate(1px, -1px) rotate(1deg);
+    z-index: 999999;
+}
+
+.specification_content_image img:hover{
+    transform: translate(5px, -5px) rotate(5deg);
+}
+
+.specification_content_text{
+padding-top: 30px;
+text-align: center;
+margin: 0px 30px;
+height: 585px;
+}
+
+.specification_content_text h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--orange-color);
+}
+.specification_content_text p{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.specification_btn{
+    text-align: center;
+    padding:30px 0px ;
+}
+.auto_height{
+    height: 250px;
+}
+
+.without_style_btn{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: .3s linear;
+    color: var(--orange-color);
+}
+
+.without_style_btn span{
+    padding: 0px 5px;
+}
+
+.without_style_btn:hover{
+    color: var(--space--color);
+}
+/* ================================
+           Age section end
+ ================================== */
+
+
+ /*===================================
+            School timing start
+ ===================================== */
+
+ .school_timing h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--blue-color);
+    font-weight: 800;
+ }
+
+ .school_timing_table_wrapper{
+    border: 1px solid var(--sea-color);
+    border-radius: 24px;
+    margin: 30px 0px;
+ }
+
+ .school_table_content{
+    margin: 0px 30px;
+ }
+
+ .school_table_head{
+    margin: 40px 0px;
+    
+ }
+
+ .school_table_head h2{
+  font-weight: 600;
+  color: var(--sea-color);
+
+ }
+
+ .custom_table_header{
+    background-color: var(--blue-color);
+ }
+
+ .td_head{
+    background-color: var(--blue-color) !important;
+    color: var(--white-color) !important;
+ }
+
+ .table-bordered{
+    border: 1px solid var(--space--color) !important;
+ }
+
+ .school_timing_note p{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+ }
+
+ .school_timing_btn {
+    margin-bottom: 30px;
+ }
+
+ /*====================================
+  School Timing end 
+  =====================================*/
+
+
+  /*=====================================
+   news and media section start 
+   ======================================*/
+   .news_media{
+    margin: 100px 0px;
+   }
+  .left_news_media{
+    height: 500px;
+    width: 500px;
+    background-color: var(--space--color);
+    position: relative;
+    border-radius: 15px;
+  }
+
+  .slider_content img{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid var(--sea-color);
+    border-radius: 15px;
 }
 
 
+  .slider_content{
+    height:100%;
+    width: 500px;
+    /* border: 1px solid var(--sea-color); */
+  }
 
-/* ================================
-           counter section end
- ================================== */
+  .floating_blog .counter_heading h2,
+  .media .counter_heading h2,
+  .form_content .counter_heading h2
+  {
+    color: var(--blue-color);
+  }
+
+  .floating_blog .counter_heading,
+  .media .counter_heading,
+  .form_content .counter_heading
+  {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .floating_blog{
+    margin: 30px 0px;
+  }
+
+  .content_list li,
+  .media_image_content
+  {
+    margin: 15px 0px;
+  }
+
+  .content_list  p,
+  .media_text P
+  {
+    text-decoration: underline;
+    font-size: 18px;
+  }
+
+  .form_box{
+    margin: 30px 0px;
+  }
+
+  .form_box .form-label,
+  .form_box option
+  {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .from_btn button{
+    background-color: var(--blue-color);
+  }
+
+  /*=======================================
+        news and media section end 
+  =========================================*/
+
+  /*=======================================
+       footer seection start 
+   ========================================*/
+
+  .footer_section{
+    background-color: var(--blue-color);
+  }
+
+  .footer_logo {
+    margin: 30px 0px;
+  }
+
+  .footer_icon{
+    margin: 30px 0px;
+  }
+  .footer_icon a{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    position: relative;
+  }
+
+  .footer_icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .footer_singel_part_title{
+   margin-top: 30px;
+   margin-bottom: 10px;
+  }
+
+  .footer_singel_part_title h5{
+    color: var(--white-color);
+  }
+
+  .footer_singel_link{
+   color: var(--white-color);
+  }
+  /* =================================
+    footer section end
+==================================== */
