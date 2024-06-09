@@ -45,7 +45,11 @@ p {
     font-family: "Hind", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--sea-color);
+    color: var(--black-color);
+}
+
+body{
+    /* position: relative; */
 }
 
 /* common css end */
@@ -295,7 +299,7 @@ button.btn-close {
     background-position-x: right !important;
     background-position-y: top !important;
     background-size: contain !important;
-    height: 100VH !important;
+    /* height: 100VH !important; */
     /* position: relative; */
 }
 
@@ -564,7 +568,7 @@ button.btn-close {
 
 .counter_sec span {
     font-size: 30px;
-    color: var(--orange-color);
+    color: var(--white-color);
     font-weight: 800;
     padding: 20px 0px;
 }
@@ -572,7 +576,7 @@ button.btn-close {
 .counter_heading h3 {
     font-size: 20px;
     font-weight: 600;
-    color: var(--orange-color);
+    color: var(--white-color);
 }
 
 .counter_heading h2 {
@@ -584,11 +588,13 @@ button.btn-close {
 .counter_sec p {
     font-size: 20px;
     font-weight: 800;
+    color: var(--white-color);
 }
 
-.horigontal_column{
-    background-color: var(--orange-color);
-}
+/* .horigontal_column{
+    background-color: var(--blue-color);
+    z-index: 99999999;
+} */
 
 .wrapper_text p{
     font-size: 30px;
@@ -608,13 +614,13 @@ button.btn-close {
     position: absolute;
     width: 90%;
     bottom: -51px;
-    z-index: -1;
-    background-color: var(--orange-color);
+    z-index: 9999999;
+    background-color: var(--blue-color);
 }
 
 .box_btn{
     padding: 15px 20px;
-    background-color: var(--blue-color);
+    background-color: var(--black-color);
     color: var(--white-color);
     font-size: 20px;
     font-weight: bold;
@@ -649,12 +655,12 @@ button.btn-close {
 }
 
 .age_specification_top h3{
-    color: var(--orange-color);
+    color: var(--blue-color);
     font-weight: 600;
 }
 
 .age_specification_top h2{
-    color: var(--sea-color);
+    color: var(--black-color);
     font-size: 30px;
     font-weight: 800;
 }
@@ -696,7 +702,7 @@ height: 585px;
 .specification_content_text h2{
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--orange-color);
+    color: var(--blue-color);
 }
 .specification_content_text p{
     text-align: center;
@@ -717,16 +723,16 @@ height: 585px;
     font-weight: 800;
     text-transform: uppercase;
     transition: .3s linear;
-    color: var(--orange-color);
+    color: var(--blue-color);
 }
 
 .without_style_btn span{
     padding: 0px 5px;
 }
 
-.without_style_btn:hover{
+/* .without_style_btn:hover{
     color: var(--space--color);
-}
+} */
 /* ================================
            Age section end
  ================================== */
@@ -761,7 +767,7 @@ height: 585px;
 
  .school_table_head h2{
   font-weight: 600;
-  color: var(--sea-color);
+  color: var(--black-color);
 
  }
 
@@ -917,6 +923,123 @@ height: 585px;
   .footer_singel_link{
    color: var(--white-color);
   }
+
+  .footer_singel_link ul li p{
+    color: var(--white-color);
+  }
+
+  .footer_singel_part_title h5{
+     font-size: 15px;
+     font-weight: 800;
+  }
+
+  .footer_singel_part_title p{
+    color: var(--white-color);
+  }
+
+  .bottom_foter{
+    border-top: 1px solid var(--white-color);
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .copywrite_text p{
+    color: var(--white-color);
+  }
+
+  .footer_condiion{
+   display: flex;
+   justify-content: end;
+   justify-content: space-between;
+  }
+
+  .footer_condiion{
+    color: var(--white-color);
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+
+  .copywrite_text{
+    margin: 20px 0px;
+  }
+
+  .footer_condiion{
+    margin: 20px 0px;
+  }
   /* =================================
     footer section end
 ==================================== */
+
+/* ================================
+      reminder start
+===================================== */
+.reminder{
+    background-color: var(--blue-color);
+    border-radius: 0px !important;
+    border: none !important;
+}
+.reminder_header h2,
+.reminder_footer h2
+{
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white-color); 
+    text-align: center;
+   text-transform: capitalize;
+   padding-top: 15px;
+}
+.reminder_body{
+    border: 1px solid var(--white-color);
+   margin: 10px 20px;
+}
+
+.countdown_box{
+    padding: 0px 5px;
+}
+.time_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+.countdown_title{
+    font-size: 15PX;
+}
+
+.countdown_number{
+    display: block;
+    font-weight: 800;
+    font-size: 30PX;
+    color: var(--white-color);
+}
+.countdown_title{
+    font-size: 15px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.reminder{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    z-index: 999999999;
+    
+}
+
+
+/* =================================
+        reminder end
+==================================== */
+
+/* custom header start */
+
+.top_logo{
+    width: 100%;
+}
+
+.top_head_button{
+    width: 100%;
+}
+
+/* custom header ebd */
+

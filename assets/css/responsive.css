@@ -1,0 +1,194 @@
+/* Mobile s */
+@media only screen and (max-width: 374px) and (min-width: 320px) {}
+
+/* mobile M */
+@media only screen and (max-width: 424px) and (min-width: 375px) {
+    .top_head_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .btn_sec {
+        display: flex;
+        justify-content: space-evenly;
+    } 
+    
+    .cmn_btn {
+        padding: 10px 5px;
+        border-radius: 50px;
+        margin-left: 3px;
+        font-size: 11px;
+    }
+
+    .navbar-toggler {
+        display: block;
+        display: none;
+    }
+    .top_head_button {
+        padding: 10px 0px;
+    }
+    .top_logo{
+       width: 100%;
+       text-align: center;
+    } 
+
+    .top_head_button{
+        width: 100%;
+    }
+
+    .top_social_icon {
+        padding: 10px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .offcanvas-header .btn-close {
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .reminder {
+        bottom: 0px;
+        left: 145px;
+        width: 230px;
+    }
+
+    .reminder_body {
+        margin: 0px 20px;
+    }
+
+    .countdown_number {
+        font-size: 20px;
+}
+
+.reminder_header h2, .reminder_footer h2 {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+/* banner sectio responsive start */
+
+.banner_left_container {
+    margin-top: 40px;
+}
+
+.banner_middle_text h2 {
+    font-size: 32px;
+}
+
+.banner_rating {
+    margin-right: 0px;
+}
+
+.button_rating {
+    padding: 2px;
+}
+
+.image_wrapper {
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.image_wrapper {
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.up_image img {
+    max-width: 200px;
+}
+
+.down_image img {
+    max-width: 200px;
+}
+
+.down_image {
+    top: 25%;
+    left: 45%;
+}
+
+/* banner section end */
+
+/* About us start */
+
+.about_us {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about_title h2 {
+    margin-top: 20px;
+}
+
+.about_heading h2 {
+    font-size: 25px;
+}
+
+.about_title,
+.about_heading 
+{
+    margin-bottom: 10px;
+}
+.about_peragraph{
+    margin-bottom: 10px;
+}
+.about_peragraph p {
+    font-size: 18px;
+}
+
+.about_right {
+    padding-left: 0px;
+}
+
+.about_right {
+    text-align: center;
+}
+/* about us end */
+
+/* Counter section start */
+
+.counter_heading {
+    padding-top: 20px;
+}
+
+.counter_heading {
+    margin-top: 10px;
+}
+
+.wrapper_text {
+    bottom: -88px;
+}
+
+.wrapbb {
+    margin: 0px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* counter section end */
+
+/* banner section responsive end */
+
+
+/* small device */
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+ XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
