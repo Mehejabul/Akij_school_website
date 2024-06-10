@@ -168,9 +168,73 @@
     margin-bottom: 10px;
 }
 
+.wrapper_text p {
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
 /* counter section end */
 
-/* banner section responsive end */
+/* age specific start */
+.specification_content_text {
+    padding-top: 0px;
+    height: auto;
+}
+
+.age_specification_top {
+    padding-bottom: 5px;
+}
+
+.age_specification_content {
+    margin: 10px 0px;
+}
+
+.auto_height {
+    height: 215px;
+}
+
+.age_specification {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.school_table_head h2 {
+    font-size: 18px;
+}
+
+.school_table_head {
+    margin: 15px 0px;
+}
+
+.school_table_content {
+    margin: 0px 10px;
+}
+
+.school_timing_note p {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.school_timing_btn {
+    margin-bottom: 0px;
+}
+/* age specific end */
+
+/* news media start */
+.news_media {
+    margin: 40px 0px;
+}
+
+.left_news_media {
+    height: 300px;
+    width: 300px;
+}
+
+.media_text {
+    margin: 10px 0px;
+}
+/* news media end */
 
 
 /* small device */
