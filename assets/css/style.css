@@ -48,7 +48,7 @@ p {
     color: var(--black-color);
 }
 
-body{
+body {
     /* position: relative; */
 }
 
@@ -164,6 +164,14 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
 
 }
 
+.navbar .nav-item .dropdown {
+    display: none;
+}
+
+.navbar .nav-link:hover .dropdown-menu {
+    visibility: visible;
+}
+
 .nav-item {
     margin-right: 6px;
 }
@@ -208,6 +216,39 @@ button.btn-close {
     font-weight: 800;
 }
 
+/* custom styles for dropdown menu start */
+
+/* Custom styles for the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    z-index: 1;
+}
+
+.dropdown-item {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* custom style for dropdown menu end */
+
 
 /* =======================
       sidebar menu start
@@ -233,6 +274,17 @@ button.btn-close {
     color: #000000;
     transition: .3s linear;
 }
+
+.offcanvas_main_menu .sub-menu li a {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.offcanvas_main_menu .sub-menu li i {
+    margin-right: 5px;
+}
+
+
 
 .offcanvas_main_menu li a:hover {
     color: var(--blue-color);
@@ -479,12 +531,28 @@ button.btn-close {
 .about_left_image img {
     cursor: pointer;
     margin-top: 100px;
+    transition: transform 2s;
 }
 
 
 .about_left_image img:hover {
-    transform: translate(10px, -10px) rotate(5deg);
+    animation: zoom-in-zoom-out 1s ease infinite;
 }
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
 
 /* ===========================
       About section end
@@ -596,21 +664,21 @@ button.btn-close {
     z-index: 99999999;
 } */
 
-.wrapper_text p{
+.wrapper_text p {
     font-size: 30px;
     color: var(--white-color);
     padding: 20px 20px;
 }
 
-.wrapper_btn{
+.wrapper_btn {
     padding: 20px 20px;
 }
 
-.counter_section{
+.counter_section {
     position: relative;
 }
 
-.wrapper_text{
+.wrapper_text {
     position: absolute;
     width: 90%;
     bottom: -51px;
@@ -618,7 +686,7 @@ button.btn-close {
     background-color: var(--blue-color);
 }
 
-.box_btn{
+.box_btn {
     padding: 15px 20px;
     background-color: var(--black-color);
     color: var(--white-color);
@@ -628,11 +696,11 @@ button.btn-close {
 
 }
 
-.wrapbb{
+.wrapbb {
     margin: 20px 0px;
 }
 
-.wrap_pera p{
+.wrap_pera p {
     margin-top: 10px;
     font-weight: bold;
     color: #ffffff;
@@ -648,77 +716,94 @@ button.btn-close {
      Age specification start 
 =====================================*/
 
-.age_specification_top{
+.age_specification_top {
     text-align: center;
     margin: 50px 0px;
     padding-bottom: 50px;
 }
 
-.age_specification_top h3{
+.age_specification_top h3 {
     color: var(--blue-color);
     font-weight: 600;
 }
 
-.age_specification_top h2{
+.age_specification_top h2 {
     color: var(--black-color);
     font-size: 30px;
     font-weight: 800;
 }
 
-.age_specification{
+.age_specification {
     margin: 100px 0px;
-   
+
 }
 
-.age_specification_content{
+.age_specification_content {
     border: 1px solid var(--space--color);
     border-radius: 24px;
     position: relative;
 }
-.specification_content_image{
+
+.specification_content_image {
     padding-right: 30px;
 }
+
 .specification_content_image img {
     position: absolute;
-    top:-50px;
+    top: -50px;
     left: 0;
     margin-top: 10px;
     padding-right: 30px;
-    transform: translate(1px, -1px) rotate(1deg);
     z-index: 999999;
 }
 
-.specification_content_image img:hover{
-    transform: translate(5px, -5px) rotate(5deg);
+.specification_content_image img:hover {
+    animation: zoom-in-zoom-out 1s ease infinite;
 }
 
-.specification_content_text{
-padding-top: 30px;
-text-align: center;
-margin: 0px 30px;
-height: 585px;
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
-.specification_content_text h2{
+.specification_content_text {
+    padding-top: 30px;
+    text-align: center;
+    margin: 0px 30px;
+    height: 585px;
+}
+
+.specification_content_text h2 {
     text-transform: uppercase;
     font-weight: 600;
     color: var(--blue-color);
 }
-.specification_content_text p{
+
+.specification_content_text p {
     text-align: center;
     text-align: justify;
     font-size: 20px;
 }
 
-.specification_btn{
+.specification_btn {
     text-align: center;
-    padding:30px 0px ;
+    padding: 30px 0px;
 }
-.auto_height{
+
+.auto_height {
     height: 250px;
 }
 
-.without_style_btn{
+.without_style_btn {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
@@ -726,7 +811,7 @@ height: 585px;
     color: var(--blue-color);
 }
 
-.without_style_btn span{
+.without_style_btn span {
     padding: 0px 5px;
 }
 
@@ -738,83 +823,84 @@ height: 585px;
  ================================== */
 
 
- /*===================================
+/*===================================
             School timing start
  ===================================== */
 
- .school_timing h2{
+.school_timing h2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: var(--blue-color);
     font-weight: 800;
- }
+}
 
- .school_timing_table_wrapper{
+.school_timing_table_wrapper {
     border: 1px solid var(--sea-color);
     border-radius: 24px;
     margin: 30px 0px;
- }
+}
 
- .school_table_content{
+.school_table_content {
     margin: 0px 30px;
- }
+}
 
- .school_table_head{
+.school_table_head {
     margin: 40px 0px;
-    
- }
 
- .school_table_head h2{
-  font-weight: 600;
-  color: var(--black-color);
+}
 
- }
+.school_table_head h2 {
+    font-weight: 600;
+    color: var(--black-color);
 
- .custom_table_header{
+}
+
+.custom_table_header {
     background-color: var(--blue-color);
- }
+}
 
- .td_head{
+.td_head {
     background-color: var(--blue-color) !important;
     color: var(--white-color) !important;
- }
+}
 
- .table-bordered{
+.table-bordered {
     border: 1px solid var(--space--color) !important;
- }
+}
 
- .school_timing_note p{
+.school_timing_note p {
     margin-bottom: 30px;
     margin-left: 30px;
     font-size: 20px;
-    
- }
 
- .school_timing_btn {
+}
+
+.school_timing_btn {
     margin-bottom: 30px;
- }
+}
 
- /*====================================
+/*====================================
   School Timing end 
   =====================================*/
 
 
-  /*=====================================
+/*=====================================
    news and media section start 
    ======================================*/
-   .news_media{
+.news_media {
     margin: 100px 0px;
-   }
-  .left_news_media{
+}
+
+.left_news_media {
     height: 500px;
     width: 500px;
     background-color: var(--space--color);
     position: relative;
     border-radius: 15px;
-  }
+}
 
-  .slider_content img{
+.slider_content img {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -823,209 +909,208 @@ height: 585px;
 }
 
 
-  .slider_content{
-    height:100%;
+.slider_content {
+    height: 100%;
     width: 500px;
     /* border: 1px solid var(--sea-color); */
-  }
+}
 
-  .floating_blog .counter_heading h2,
-  .media .counter_heading h2,
-  .form_content .counter_heading h2
-  {
+.floating_blog .counter_heading h2,
+.media .counter_heading h2,
+.form_content .counter_heading h2 {
     color: var(--blue-color);
-  }
+}
 
-  .floating_blog .counter_heading,
-  .media .counter_heading,
-  .form_content .counter_heading
-  {
+.floating_blog .counter_heading,
+.media .counter_heading,
+.form_content .counter_heading {
     margin-top: 0px;
     padding-top: 0px;
-  }
+}
 
-  .floating_blog{
+.floating_blog {
     margin: 30px 0px;
-  }
+}
 
-  .content_list li,
-  .media_image_content
-  {
+.content_list li,
+.media_image_content {
     margin: 15px 0px;
-  }
+}
 
-  .content_list  p,
-  .media_text P
-  {
+.content_list p,
+.media_text P {
     text-decoration: underline;
     font-size: 18px;
-  }
+}
 
-  .form_box{
+.form_box {
     margin: 30px 0px;
-  }
+}
 
-  .form_box .form-label,
-  .form_box option
-  {
+.form_box .form-label,
+.form_box option {
     font-size: 12px;
     font-weight: 600;
     color: #000000;
-  }
+}
 
-  .from_btn button{
+.from_btn button {
     background-color: var(--blue-color);
-  }
+}
 
-  /*=======================================
+/*=======================================
         news and media section end 
   =========================================*/
 
-  /*=======================================
+/*=======================================
        footer seection start 
    ========================================*/
 
-  .footer_section{
+.footer_section {
     background-color: var(--blue-color);
-  }
+}
 
-  .footer_logo {
+.footer_logo {
     margin: 30px 0px;
-  }
+}
 
-  .footer_icon{
+.footer_icon {
     margin: 30px 0px;
-  }
-  .footer_icon a{
+}
+
+.footer_icon a {
     height: 30px;
     width: 30px;
     border-radius: 50%;
     background-color: var(--white-color);
     position: relative;
-  }
+}
 
-  .footer_icon i{
+.footer_icon i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .footer_singel_part_title{
-   margin-top: 30px;
-   margin-bottom: 10px;
-  }
+.footer_singel_part_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
-  .footer_singel_part_title h5{
+.footer_singel_part_title h5 {
     color: var(--white-color);
-  }
+}
 
-  .footer_singel_link{
-   color: var(--white-color);
-  }
-
-  .footer_singel_link ul li p{
+.footer_singel_link {
     color: var(--white-color);
-  }
+}
 
-  .footer_singel_part_title h5{
-     font-size: 15px;
-     font-weight: 800;
-  }
-
-  .footer_singel_part_title p{
+.footer_singel_link ul li p {
     color: var(--white-color);
-  }
+}
 
-  .bottom_foter{
+.footer_singel_part_title h5 {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.footer_singel_part_title p {
+    color: var(--white-color);
+}
+
+.bottom_foter {
     border-top: 1px solid var(--white-color);
     width: 100%;
     margin-bottom: 20px;
-  }
+}
 
-  .copywrite_text p{
+.copywrite_text p {
     color: var(--white-color);
-  }
+}
 
-  .footer_condiion{
-   display: flex;
-   justify-content: end;
-   justify-content: space-between;
-  }
+.footer_condiion {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+}
 
-  .footer_condiion{
+.footer_condiion {
     color: var(--white-color);
     font-weight: 800;
     text-transform: capitalize;
-  }
+}
 
-  .copywrite_text{
+.copywrite_text {
     margin: 20px 0px;
-  }
+}
 
-  .footer_condiion{
+.footer_condiion {
     margin: 20px 0px;
-  }
-  /* =================================
+}
+
+/* =================================
     footer section end
 ==================================== */
 
 /* ================================
       reminder start
 ===================================== */
-.reminder{
+.reminder {
     background-color: var(--blue-color);
     border-radius: 0px !important;
     border: none !important;
 }
+
 .reminder_header h2,
-.reminder_footer h2
-{
+.reminder_footer h2 {
     font-size: 18px;
     font-weight: 800;
-    color: var(--white-color); 
+    color: var(--white-color);
     text-align: center;
-   text-transform: capitalize;
-   padding-top: 15px;
-}
-.reminder_body{
-    border: 1px solid var(--white-color);
-   margin: 10px 20px;
+    text-transform: capitalize;
+    padding-top: 15px;
 }
 
-.countdown_box{
+.reminder_body {
+    border: 1px solid var(--white-color);
+    margin: 10px 20px;
+}
+
+.countdown_box {
     padding: 0px 5px;
 }
-.time_box{
+
+.time_box {
     display: flex;
     justify-content: space-between;
     padding: 0px 0px;
 }
 
-.countdown_title{
+.countdown_title {
     font-size: 15PX;
 }
 
-.countdown_number{
+.countdown_number {
     display: block;
     font-weight: 800;
     font-size: 30PX;
     color: var(--white-color);
 }
-.countdown_title{
+
+.countdown_title {
     font-size: 15px;
     color: var(--white-color);
     font-weight: 600;
 }
 
-.reminder{
+.reminder {
     position: fixed;
     bottom: 0px;
     right: 0;
     z-index: 999999999;
-    
-}
 
+}
 
 /* =================================
         reminder end
@@ -1033,13 +1118,96 @@ height: 585px;
 
 /* custom header start */
 
-.top_logo{
+.top_logo {
     width: 100%;
 }
 
-.top_head_button{
+.top_head_button {
     width: 100%;
 }
 
 /* custom header ebd */
 
+/*========================
+ about page css start 
+ =========================*/
+
+ /*====================
+  mission&vission start 
+  ======================*/
+  .mission_title {
+    background-color: var(--blue-color);
+    margin: 30px 0px;
+    position: relative;
+  }
+
+  .mission_title h2{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white-color);
+    padding: 25px 0px;
+  }
+
+  .flipcard {
+    position: relative;
+    width: 100%;
+    height:400px;
+    text-align: center;
+    color: #ecf0f1;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+  }
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    transition: transform 0.5s ease-in-out;
+    backface-visibility: hidden;
+  }
+  .face-back {
+    transform: rotateY(180deg);
+    background-color: var(--blue-color);
+  }
+  .flipcard:hover .face-front {
+    transform: rotateY(-180deg);
+  }
+  .flipcard:hover .face-back {
+    transform: rotateY(0deg);
+  }
+
+  .icon_image img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  .icon_text{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--blue-color);
+  }
+
+  .flip_text_wrapper{
+    margin-top: 50px;
+    padding: 0px 50px;
+  }
+
+  .flip_text_wrapper p{
+    text-align: justify;
+    color: var(--white-color);
+    margin-top: 20px;
+  }
+
+.flip_box_section{
+    margin-bottom: 30px;
+}
+
+   /*====================
+  mission&vission end 
+  ======================*/
+
+ /* =======================
+ about page css end 
+ ==========================*/
