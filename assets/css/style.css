@@ -1116,18 +1116,6 @@ button.btn-close {
         reminder end
 ==================================== */
 
-/* custom header start */
-
-.top_logo {
-    width: 100%;
-}
-
-.top_head_button {
-    width: 100%;
-}
-
-/* custom header ebd */
-
 /*========================
  about page css start 
  =========================*/
@@ -1407,6 +1395,10 @@ ul#myTab {
  }
 
  .teacher_info{
+    height: 70px;
+ }
+
+ .teacher_info{
     margin-top: 10px;
  }
 
@@ -1437,6 +1429,25 @@ ul#myTab {
  .back_teacher_info p{
     font-size: 12PX;
     color: var(--white-color);
+ }
+
+ .department_title{
+    text-align: center;
+    margin: 20px 0px;
+ }
+
+ .department_title h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--blue-color);
+ }
+
+ .common_teaching_team{
+    padding-bottom: 50px;
+ }
+
+ .common_teaching_team .flipcard{
+    margin: 10px 0px;
  }
 
 /* ============================
