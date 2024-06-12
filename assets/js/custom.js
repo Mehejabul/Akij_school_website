@@ -2,6 +2,28 @@
 
 $(function () {
 
+  $('.campus_slide').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: true
+});
+
+//mixitup
+
+$(document).ready(function(){
+  var mixer = mixitup('#mix-wrapper');
+
+  $('.filter').on('click', function(){
+      var filterValue = $(this).attr('data-filter');
+      mixer.filter(filterValue);
+  });
+});
+
     //sidebar
     $('.feat-btn').click(function () {
         $('sidebar_menu ul .feat-show').toggleClass("show");
@@ -15,31 +37,10 @@ $(function () {
         $(this).addClass("active").siblings().removeClass("active");
       });
 
- //   collapse button
-
-
-
- //tab button
- 
- 
-
- 
- 
 
   //counter
     $('.countup').counterUp({
         time: 5000
     });
-
-    //
-
-   
-      $('.slick-carousel').slick({
-        arrows: true,
-        centerPadding: "0px",
-        dots: true,
-        slidesToShow: 1,
-        infinite: false
-      });
 
 });

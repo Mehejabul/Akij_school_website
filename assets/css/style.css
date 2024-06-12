@@ -1460,3 +1460,329 @@ ul#myTab {
  /* =======================
  about page css end 
  ==========================*/
+
+ /* =======================
+ curriculam_page start 
+ ===========================*/
+  .curriculam_description_title p{
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--blue-color);
+    color: var(--blue-color);
+
+  }
+
+  .elemonteory_list{
+    margin-left: 50px;
+  }
+
+  .elemonteory_list p{
+    text-align: justify;
+  }
+
+  .elemonteory_list ul{
+    list-style: show;
+  }
+
+  .common_pera{
+    margin: 30px 0px;
+  }
+
+  .common_pera h5{
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--blue-color);
+    padding-bottom: 15px;
+  }
+
+  .elementory_section h5{
+    color: var(--blue-color);
+  }
+
+  .curriculam_logo_top_text p{
+    text-align: center;
+  }
+
+  .curriculam_logo_text{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .curriculam_box{
+    margin: 0px 10px;
+  }
+ /* =======================
+ curriculam_page end 
+ ===========================*/
+
+ /* ===========================
+       campus page start
+=================================== */
+.tour_from_wrapper{
+    margin-top: 50px;
+}
+.custom_campus_left{
+   margin-top: 50px;
+}
+.lft_campus_heading{
+    background-color: var(--blue-color);
+    padding: 20px;
+}
+
+.lft_campus_heading p, h3, h5{
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.under_campus img{
+    border: 1px solid var(--blue-color);
+}
+
+.form_inner_title {
+    border-bottom: 1px solid var(--blue-color);
+}
+
+.form_inner_title h2{
+  font-size: 20px;
+  color: var(--blue-color);    
+  font-weight: 600;
+}
+
+
+/*=========================
+ recapcha start 
+ =======================*/
+
+.captcha {
+	background-color:#f9f9f9;
+	border-radius:5px;
+	color:#4c4a4b;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+@media screen and (max-width: 500px) {
+	.captcha {
+		flex-direction:column;
+	}
+	.text {
+		margin:.5em!important;
+		text-align:center;
+	}
+	.logo {
+		align-self: center!important;
+	}
+	.spinner {
+		margin:2em .5em .5em .5em!important;
+	}
+}
+
+.text {
+	font-size:15px;
+	font-weight:500;
+	margin-right:1em;
+}
+.spinner {
+	position:relative;
+	width:2em;
+	height:2em;
+	display:flex;
+	margin:2em 1em;
+	align-items:center;
+	justify-content:center;
+}
+input[type="checkbox"] { position: absolute; opacity: 0; z-index: -1; }
+input[type="checkbox"]+.checkmark {
+	display:inline-block;
+	width:25px;
+	height:25px;
+	background-color:#fcfcfc;
+	border:2.5px solid #c3c3c3;
+	border-radius:3px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor: pointer;
+}
+input[type="checkbox"]+.checkmark span {
+	content:'';
+	position:relative;/*
+	position:absolute;
+	border-bottom:3px solid;
+	border-right:3px solid;
+	border-color:#029f56;*/
+	margin-top:-3px;
+	transform:rotate(45deg);
+	width:.75em;
+	height:1.2em;
+	opacity:0;
+}
+input[type="checkbox"]+.checkmark>span:after {
+	content:'';
+	position:absolute;
+	display:block;
+	height:3px;
+	bottom:0;left:0;
+	background-color:#029f56;
+}
+input[type="checkbox"]+.checkmark>span:before {
+	content:'';
+	position:absolute;
+	display:block;
+	width:3px;
+	bottom:0;right:0;
+	background-color:#029f56;
+}
+input[type="checkbox"]:checked+.checkmark { 
+	animation:2s spin forwards;
+}
+input[type="checkbox"]:checked+.checkmark>span { 
+	animation:1s fadein 1.9s forwards;
+}
+input[type="checkbox"]:checked+.checkmark>span:after {animation:.3s bottomslide 2s forwards;}
+input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 2.2s forwards;}
+@keyframes fadein {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes bottomslide {
+	0% {width:0;}
+	100% {width:100%;}
+}
+@keyframes rightslide {
+	0% {height:0;}
+	100% {height:100%;}
+}
+.logo {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:100%;
+	align-self:flex-end;
+	margin:0.5em 1em;
+}
+.logo img {
+	height:2em;
+	width:2em;
+}
+.logo p {
+	color:#9d9ba7;
+	margin:0;
+	font-size:1em;
+	font-weight:700;
+	margin:.4em 0 .2em 0;
+}
+.logo small {
+	color:#9d9ba7;
+	margin:0;
+	font-size:.8em;
+}
+@keyframes spin {
+	10% {
+		width:0;
+		height:0;
+		border-width:6px;
+	}
+	30% {
+		width:0;
+		height:0;
+		border-radius:50%;
+		border-width:1em;
+		transform: rotate(0deg);
+		border-color:rgb(199,218,245);
+	}
+	50% {
+		width:2em;
+		height:2em;
+		border-radius:50%;
+		border-width:4px;
+		border-color:rgb(199,218,245);
+		border-right-color:rgb(89,152,239);
+	}
+	70% {
+		border-width:4px;
+		border-color:rgb(199,218,245);
+		border-right-color:rgb(89,152,239);
+	}
+	90% {
+		border-width:4px;
+	}
+	100% {
+		width:2em;
+		height:2em;
+		border-radius:50%;
+		transform: rotate(720deg);
+		border-color:transparent;
+	}
+}
+::selection {
+	background-color:transparent;
+	color:teal;
+}
+::-moz-selection {
+	background-color:transparent;
+	color:teal;
+}
+
+/* =====================
+recapcha end 
+=========================*/
+
+.tour_from_wrapper{
+    border-radius: 24px;
+}
+
+
+/* cumpus slide */
+
+
+/* mixitup_section start */
+
+.mixitup_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mixitup_single_image{
+    margin: 10px 5px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+/* mixitup section end */
+
+
+/* ===========================
+       campus page end
+=================================== */
