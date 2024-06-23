@@ -1822,25 +1822,26 @@ recapcha end
     margin: 20px 0px;
 }
 
-.mixitup_single_image img{
+.mixitup_single_image img {
     height: 300px;
     border-radius: 25px;
 }
-.mixitup_text p{
+
+.mixitup_text p {
     font-size: 15px;
     text-align: center;
 }
 
-.mixitup_btn button{
-   padding: 10px 15px;
-   background-color: var(--white-color);
-   color: var(--black-color);
-   transition: all .3s linear;
+.mixitup_btn button {
+    padding: 10px 15px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    transition: all .3s linear;
 }
 
-.mixitup_btn button:hover{
- background-color: var(--blue-color);
- color: var(--white-color);
+.mixitup_btn button:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
 }
 
 /* mixitup section end */
@@ -1855,7 +1856,7 @@ recapcha end
    event page start
 =============================== */
 
-.event_section_banner{
+.event_section_banner {
     background-position: center !important;
     background-size: cover !important;
     width: 100% !important;
@@ -1864,7 +1865,7 @@ recapcha end
     position: relative;
 }
 
-.event_overlay_text h2{
+.event_overlay_text h2 {
     position: absolute;
     top: 50%;
     left: 10%;
@@ -1874,29 +1875,29 @@ recapcha end
     font-weight: 800;
 }
 
-.event_text_lft{
+.event_text_lft {
     text-align: center;
     border-bottom: 1px solid var(--blue-color);
     width: 100%;
 }
 
-.event_card_text{
+.event_card_text {
     padding: 20px 0px;
 }
 
-.event_text_lft h2{
+.event_text_lft h2 {
     font-size: 20px;
     font-weight: 800;
     color: var(--blue-color);
 }
 
-.event_text_lft p{
+.event_text_lft p {
     font-size: 16px;
     font-weight: 800;
     color: var(--black-color);
 }
 
-.event_text_right p{
+.event_text_right p {
     font-size: 18px;
     color: var(--black-color);
     font-weight: 600;
@@ -1905,14 +1906,16 @@ recapcha end
 .evnt_icon_text {
     margin-top: -12px;
 }
-.evnt_icon_text span{
+
+.evnt_icon_text span {
     color: var(--blue-color);
     font-size: 15px;
 }
 
-.event_card_design{
+.event_card_design {
     margin: 10px 0px;
 }
+
 /* ============================
    event page end
 ================================ */
@@ -1922,7 +1925,7 @@ recapcha end
       Gallery Page start 
 ====================================*/
 
-.hero_section{
+.hero_section {
     background-position: center !important;
     background-size: cover !important;
     width: 100% !important;
@@ -1931,7 +1934,7 @@ recapcha end
     position: relative;
 }
 
-.hero_section_overlay{
+.hero_section_overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1940,62 +1943,62 @@ recapcha end
     background-color: rgba(0, 0, 0, 0.225);
 }
 
-.hero_section_overlay p{
- position: absolute;
- top: 50%;
- left: 20%;
- transform: translate(-50%, -20%);    
-font-size: 45px;
-color: var(--white-color);
-font-weight: 800;
+.hero_section_overlay p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -20%);
+    font-size: 45px;
+    color: var(--white-color);
+    font-weight: 800;
 }
 
 .breadcum_gallery_page {
     margin-top: 30px;
 }
 
-.breadcrumb-item{
+.breadcrumb-item {
     font-size: 20px;
 }
 
-.breadcum_gallery_page .breadcrumb-item a{
+.breadcum_gallery_page .breadcrumb-item a {
     color: var(--black-color);
-   transition: all .3s linear;
+    transition: all .3s linear;
 }
 
-.breadcum_gallery_page .breadcrumb-item a:hover{
-  color: var(--blue-color);
+.breadcum_gallery_page .breadcrumb-item a:hover {
+    color: var(--blue-color);
 }
 
 li.breadcrumb-item.active {
     color: var(--blue-color) !important;
 }
 
-li.breadcrumb-item.active:hover{
+li.breadcrumb-item.active:hover {
     color: var(--black-color) !important;
 }
 
-.gallery_inner_title{
+.gallery_inner_title {
     margin-top: 100px;
 }
 
-.gallery_inner_title h5{
+.gallery_inner_title h5 {
     font-size: 20px;
     color: var(--black-color);
 }
 
-.gallery_inner_title h3{
+.gallery_inner_title h3 {
     font-size: 30px;
     color: var(--blue-color);
     font-weight: 800;
 }
 
-.gallery_page_singel_image{
+.gallery_page_singel_image {
     position: relative;
     margin: 15px 0px;
 }
 
-.gallery_page_singel_image_overlay{
+.gallery_page_singel_image_overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -2006,7 +2009,7 @@ li.breadcrumb-item.active:hover{
     transition: all .5s linear;
 }
 
-.gallery_page_singel_image_overlay P{
+.gallery_page_singel_image_overlay P {
     position: absolute;
     bottom: 0;
     left: 20%;
@@ -2014,6 +2017,72 @@ li.breadcrumb-item.active:hover{
     color: var(--white-color);
 }
 
-.gallery_page_singel_image:hover .gallery_page_singel_image_overlay{
+.gallery_page_singel_image:hover .gallery_page_singel_image_overlay {
     opacity: 1;
 }
+
+/*==================================
+      Gallery Page start 
+====================================*/
+
+/*==================================
+    Academic calender page start
+====================================*/
+.calender_left_side{
+    margin-bottom: 80PX;
+}
+.calender_right_side_content{
+    padding: 60px 60px;
+   }
+.admission_content_heading,
+.admission_content_address
+.addmission_content_openingHour
+.admission_content_campus{
+   margin:20px 0px;
+}
+
+.admission_content_address p,
+.addmission_content_openingHour p{
+    font-size: 13px;
+    color: var(--white-color);
+}
+
+.admission_content_campus ul li {
+    margin-bottom: -10px;
+}
+
+.admission_content_campus p{
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.custom_campus{
+    color: var(--black-color);
+    margin-left: 10px;
+    font-size: 20px;
+    transition: all .3s linear;
+}
+
+.admission_content_heading h3,
+.admission_content_social_info h3{
+    font-size: 20px;
+}
+
+.admission_content_social_info .footer_icon{
+    margin: 10px 0px;
+}
+.calender_leftside_content embed{
+    width: 100% !important;
+    height: 750px !important;
+}
+
+.calender_right_side{
+    background-color: var(--blue-color);
+}
+
+
+
+
+/*==================================
+    Academic calnder page end
+====================================*/
