@@ -2028,21 +2028,21 @@ li.breadcrumb-item.active:hover {
 /*==================================
     Academic calender page start
 ====================================*/
-.calender_left_side{
+.calender_left_side {
     margin-bottom: 80PX;
 }
-.calender_right_side_content{
+
+.calender_right_side_content {
     padding: 60px 60px;
-   }
+}
+
 .admission_content_heading,
-.admission_content_address
-.addmission_content_openingHour
-.admission_content_campus{
-   margin:20px 0px;
+.admission_content_address .addmission_content_openingHour .admission_content_campus {
+    margin: 20px 0px;
 }
 
 .admission_content_address p,
-.addmission_content_openingHour p{
+.addmission_content_openingHour p {
     font-size: 13px;
     color: var(--white-color);
 }
@@ -2051,12 +2051,12 @@ li.breadcrumb-item.active:hover {
     margin-bottom: -10px;
 }
 
-.admission_content_campus p{
+.admission_content_campus p {
     font-size: 20px;
     color: var(--white-color);
 }
 
-.custom_campus{
+.custom_campus {
     color: var(--black-color);
     margin-left: 10px;
     font-size: 20px;
@@ -2064,19 +2064,20 @@ li.breadcrumb-item.active:hover {
 }
 
 .admission_content_heading h3,
-.admission_content_social_info h3{
+.admission_content_social_info h3 {
     font-size: 20px;
 }
 
-.admission_content_social_info .footer_icon{
+.admission_content_social_info .footer_icon {
     margin: 10px 0px;
 }
-.calender_leftside_content embed{
+
+.calender_leftside_content embed {
     width: 100% !important;
     height: 750px !important;
 }
 
-.calender_right_side{
+.calender_right_side {
     background-color: var(--blue-color);
 }
 
@@ -2084,12 +2085,12 @@ li.breadcrumb-item.active:hover {
     Academic calnder page end
 ====================================*/
 
-.top_bref_step p{
+.top_bref_step p {
     text-align: justify;
     font-size: 18px;
 }
 
-.custom_bref_step{
+.custom_bref_step {
     font-size: 20px;
     font-weight: 800;
     color: var(--black-color);
@@ -2099,9 +2100,6 @@ li.breadcrumb-item.active:hover {
 .addmission_procedure_table .table {
     --bs-table-border-color: var(--blue-color);
 }
-/* .custom_tbhead{
-    background-color: var(--blue-color) !important;
-} */
 
 /*====================================
     Addmission procedure section start
@@ -2112,3 +2110,35 @@ li.breadcrumb-item.active:hover {
 /*====================================
     Addmission procedure section end
 ====================================*/
+
+/*============================
+   Apply page start 
+==============================*/
+.download_form_lft{
+padding: 30px 0px;
+border-right: 1px solid var(--blue-color);
+transition: all .3s linear;
+}
+
+.download_form_lft:hover{
+  border: none;
+    }
+
+.download_form_lft h3,
+.download_form_right h3{
+    color: var(--blue-color);
+}
+.download_button i{
+    padding-right: 5px;
+}
+
+.download_button .cmn_btn_hov:hover{
+ background-color: var(--black-color);
+}
+
+
+
+
+/*============================
+   Apply page end 
+==============================*/
