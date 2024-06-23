@@ -2080,9 +2080,35 @@ li.breadcrumb-item.active:hover {
     background-color: var(--blue-color);
 }
 
-
-
-
 /*==================================
     Academic calnder page end
+====================================*/
+
+.top_bref_step p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.custom_bref_step{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--black-color);
+    padding-right: 10px;
+}
+
+.addmission_procedure_table .table {
+    --bs-table-border-color: var(--blue-color);
+}
+/* .custom_tbhead{
+    background-color: var(--blue-color) !important;
+} */
+
+/*====================================
+    Addmission procedure section start
+====================================*/
+
+
+
+/*====================================
+    Addmission procedure section end
 ====================================*/
