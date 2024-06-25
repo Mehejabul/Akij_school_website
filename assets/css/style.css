@@ -2136,6 +2136,110 @@ transition: all .3s linear;
  background-color: var(--black-color);
 }
 
+.online_payment_step{
+    margin: 30px 0px;
+    border-bottom: 2px solid var(--blue-color);
+}
+
+.online_payment_step .singel_line p{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--blue-color);
+}
+
+.online_payment_info_box .online_payment_info{
+    margin: 18px 0px;
+}
+
+.online_payment_info_box .step_count h3{
+    font-size: 45px;
+    color: var(--blue-color);
+    margin: 5px 33px 0px 7px;
+}
+
+.online_payment_info_box .online_payment_info h2{
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: var(--blue-color);
+}
+
+.online_payment_info ol{
+ list-style: show;
+ margin-left: 30px;
+}
+
+.payment_procedure{
+    margin: 30px 0px;
+}
+
+.payment_procedure h3{
+    font-size: 25px;
+    color: var(--blue-color);
+}
+
+.payment_procedure_step li{
+    padding: 20px 0px;
+}
+
+.online_payment_info ol li p{
+    font-size: 16px;
+}
+
+.online_payment_info_box{
+    display: flex;
+}
+.acount_information{
+    display: flex;
+}
+
+.acount_information .account_info_icon{
+    margin-right: 20px;
+}
+
+.acount_information .account_info_icon i{
+color: var(--blue-color);
+}
+
+.account_info_content{
+    margin-top: 10px;
+}
+.account_info_content p{
+   line-height: 0.5;
+   font-size: 17px;
+}
+
+.account_info_content .acount_info{
+    margin-left: 20px;
+}
+
+.applay_section_process_right{
+    margin: 30px 0px;
+}
+.apply_sec_common_head h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--blue-color);
+}
+
+.addmission_office_address{
+    margin-top: 20px;
+}
+.addmission_office_address p{
+    line-height: 0.9;
+    font-size: 17px;
+}
+
+.apply_sec_title_pera{
+    margin: 30px 0px;
+}
+
+.addmission_office_cmn_pera{
+ margin: 20px 0px;
+}
+    
+
+
 
 
 
