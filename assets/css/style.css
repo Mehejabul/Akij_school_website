@@ -2304,3 +2304,50 @@ color: var(--blue-color);
 /* ============================
 payment page end 
 =============================*/
+
+/* ============================
+Online addmission page start
+===============================*/
+.focusable_text{
+    text-align: center;
+}
+
+.focusable_text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--blue-color);
+    margin-bottom: 30px;
+}
+
+
+.online_addmission_form_wrapper{
+    border: 1px solid var(--blue-color);
+}
+
+.cmn_form_title{
+    background-color: var(--blue-color);
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+}
+.cmn_form_title h5{
+    font-size: 20px;
+    color: var(--white-color);
+    padding: 10px 0px;
+    margin-left: 20px;
+}
+
+.content_padding{
+    margin: 0px 15px;
+}
+
+.submit_btn{
+    background-color: var(--blue-color) !important;
+    padding: 10px 15px !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* ========================
+Online addmission page End
+============================ */
