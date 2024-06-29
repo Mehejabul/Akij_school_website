@@ -2238,11 +2238,69 @@ color: var(--blue-color);
  margin: 20px 0px;
 }
     
-
-
-
-
-
 /*============================
    Apply page end 
 ==============================*/
+
+/* ===========================
+ Payment page start 
+=============================*/
+
+.payment_maincontent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.payment_maincontent_img{
+    text-align: center;
+}
+
+.payment_content_description{
+    margin: 20px 0px;
+}
+
+.payment_content_description h4{
+    font-size: 24px;
+    color: var(--blue-color);
+    font-weight: 600;
+}
+
+.payment_content_description h5{
+    font-size: 20px;
+    color: var(--black-color);
+    font-weight: 600;
+    text-align: center;
+}
+
+.payment_content_description p{
+    font-size: 28px;
+    color: var(--blue-color);
+    font-weight: 600;
+}
+
+.tutorial_btn{
+    text-align: center;
+}
+.tutorial_shape{
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: var(--blue-color);
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 2px solid var(--black-color);
+    transition: all .3s linear;
+    color: var(--white-color);
+}
+
+.tutorial_shape:hover{
+    background-color: var(--white-color);
+    color: var(--blue-color);
+}
+
+/* ============================
+payment page end 
+=============================*/
