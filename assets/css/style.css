@@ -2114,130 +2114,135 @@ li.breadcrumb-item.active:hover {
 /*============================
    Apply page start 
 ==============================*/
-.download_form_lft{
-padding: 30px 0px;
-border-right: 1px solid var(--blue-color);
-transition: all .3s linear;
+.download_form_lft {
+    padding: 30px 0px;
+    border-right: 1px solid var(--blue-color);
+    transition: all .3s linear;
 }
 
-.download_form_lft:hover{
-  border: none;
-    }
+.download_form_lft:hover {
+    border: none;
+}
 
 .download_form_lft h3,
-.download_form_right h3{
+.download_form_right h3 {
     color: var(--blue-color);
 }
-.download_button i{
+
+.download_button i {
     padding-right: 5px;
 }
 
-.download_button .cmn_btn_hov:hover{
- background-color: var(--black-color);
+.download_button .cmn_btn_hov:hover {
+    background-color: var(--black-color);
 }
 
-.online_payment_step{
+.online_payment_step {
     margin: 30px 0px;
     border-bottom: 2px solid var(--blue-color);
 }
 
-.online_payment_step .singel_line p{
+.online_payment_step .singel_line p {
     font-size: 25px;
     font-weight: 600;
     color: var(--blue-color);
 }
 
-.online_payment_info_box .online_payment_info{
+.online_payment_info_box .online_payment_info {
     margin: 18px 0px;
 }
 
-.online_payment_info_box .step_count h3{
+.online_payment_info_box .step_count h3 {
     font-size: 45px;
     color: var(--blue-color);
     margin: 5px 33px 0px 7px;
 }
 
-.online_payment_info_box .online_payment_info h2{
+.online_payment_info_box .online_payment_info h2 {
     font-size: 18px;
     padding-bottom: 20px;
     font-weight: 600;
     color: var(--blue-color);
 }
 
-.online_payment_info ol{
- list-style: show;
- margin-left: 30px;
+.online_payment_info ol {
+    list-style: show;
+    margin-left: 30px;
 }
 
-.payment_procedure{
+.payment_procedure {
     margin: 30px 0px;
 }
 
-.payment_procedure h3{
+.payment_procedure h3 {
     font-size: 25px;
     color: var(--blue-color);
 }
 
-.payment_procedure_step li{
+.payment_procedure_step li {
     padding: 20px 0px;
 }
 
-.online_payment_info ol li p{
+.online_payment_info ol li p {
     font-size: 16px;
 }
 
-.online_payment_info_box{
-    display: flex;
-}
-.acount_information{
+.online_payment_info_box {
     display: flex;
 }
 
-.acount_information .account_info_icon{
+.acount_information {
+    display: flex;
+}
+
+.acount_information .account_info_icon {
     margin-right: 20px;
 }
 
-.acount_information .account_info_icon i{
-color: var(--blue-color);
+.acount_information .account_info_icon i {
+    color: var(--blue-color);
 }
 
-.account_info_content{
+.account_info_content {
     margin-top: 10px;
 }
-.account_info_content p{
-   line-height: 0.5;
-   font-size: 17px;
+
+.account_info_content p {
+    line-height: 0.5;
+    font-size: 17px;
 }
 
-.account_info_content .acount_info{
+.account_info_content .acount_info {
     margin-left: 20px;
 }
 
-.applay_section_process_right{
+.applay_section_process_right {
     margin: 30px 0px;
 }
-.apply_sec_common_head h3{
+
+.apply_sec_common_head h3 {
     font-size: 25px;
     font-weight: 800;
     color: var(--blue-color);
 }
 
-.addmission_office_address{
+.addmission_office_address {
     margin-top: 20px;
 }
-.addmission_office_address p{
+
+.addmission_office_address p {
     line-height: 0.9;
     font-size: 17px;
 }
 
-.apply_sec_title_pera{
+.apply_sec_title_pera {
     margin: 30px 0px;
 }
 
-.addmission_office_cmn_pera{
- margin: 20px 0px;
+.addmission_office_cmn_pera {
+    margin: 20px 0px;
 }
-    
+
 /*============================
    Apply page end 
 ==============================*/
@@ -2246,7 +2251,7 @@ color: var(--blue-color);
  Payment page start 
 =============================*/
 
-.payment_maincontent{
+.payment_maincontent {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -2254,37 +2259,38 @@ color: var(--blue-color);
     align-content: space-around;
 }
 
-.payment_maincontent_img{
+.payment_maincontent_img {
     text-align: center;
 }
 
-.payment_content_description{
+.payment_content_description {
     margin: 20px 0px;
 }
 
-.payment_content_description h4{
+.payment_content_description h4 {
     font-size: 24px;
     color: var(--blue-color);
     font-weight: 600;
 }
 
-.payment_content_description h5{
+.payment_content_description h5 {
     font-size: 20px;
     color: var(--black-color);
     font-weight: 600;
     text-align: center;
 }
 
-.payment_content_description p{
+.payment_content_description p {
     font-size: 28px;
     color: var(--blue-color);
     font-weight: 600;
 }
 
-.tutorial_btn{
+.tutorial_btn {
     text-align: center;
 }
-.tutorial_shape{
+
+.tutorial_shape {
     text-transform: uppercase;
     font-size: 15px;
     background-color: var(--blue-color);
@@ -2296,7 +2302,7 @@ color: var(--blue-color);
     color: var(--white-color);
 }
 
-.tutorial_shape:hover{
+.tutorial_shape:hover {
     background-color: var(--white-color);
     color: var(--blue-color);
 }
@@ -2308,11 +2314,11 @@ payment page end
 /* ============================
 Online addmission page start
 ===============================*/
-.focusable_text{
+.focusable_text {
     text-align: center;
 }
 
-.focusable_text p{
+.focusable_text p {
     font-size: 20px;
     font-weight: 600;
     color: var(--blue-color);
@@ -2320,34 +2326,53 @@ Online addmission page start
 }
 
 
-.online_addmission_form_wrapper{
+.online_addmission_form_wrapper {
     border: 1px solid var(--blue-color);
 }
 
-.cmn_form_title{
+.cmn_form_title {
     background-color: var(--blue-color);
     padding: 0px !important;
     margin: 0px !important;
     width: 100%;
 }
-.cmn_form_title h5{
+
+.cmn_form_title h5 {
     font-size: 20px;
     color: var(--white-color);
     padding: 10px 0px;
     margin-left: 20px;
 }
 
-.content_padding{
+.content_padding {
     margin: 0px 15px;
 }
 
-.submit_btn{
+.submit_btn {
     background-color: var(--blue-color) !important;
     padding: 10px 15px !important;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
 }
+
 /* ========================
 Online addmission page End
 ============================ */
+
+/* ===========================
+    Fees page start 
+=============================*/
+.fees_banner {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+    margin-bottom: 40px;
+    background-repeat: no-repeat !important;
+}
+
+
+/* ===========================
+    Fees page End
+=============================*/
