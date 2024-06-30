@@ -2372,7 +2372,57 @@ Online addmission page End
     background-repeat: no-repeat !important;
 }
 
-
 /* ===========================
     Fees page End
+=============================*/
+
+/* ===========================
+    Achivement page start
+=============================*/
+#hero_section_overlay {
+    margin-left: 60px;
+}
+
+.achivement_wrap {
+    margin:20px 10px;
+    position: relative;
+    transition: transform .3s linear;
+}
+
+.achivement_wrap:hover {
+    transform: scale(1.1);
+}
+
+.achivement_wrap:hover .achivement_wrap_overlay {
+    visibility: visible;
+}
+
+.achivement_wrap_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
+    transition: transform .3s linear;
+    visibility: hidden;
+}
+
+.achivement_wrap_overlay p {
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 80%;
+    z-index: 2;
+}
+
+/* ===========================
+    Achivement page end
 =============================*/
