@@ -2517,25 +2517,31 @@ z-index: 1;
     font-weight: 600;
 }
 
+.lighthouse_cmn_left{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 .lighthouse_cmn_left li a{
     width: 100%;
     background: var(--blue-color);
-    color: var(--white-color);
+    color: var(--black-color);
     padding: 15px 0px 15px 15px;
     border-bottom: 1px solid var(--white-color);
     border-left: 1px solid var(--white-color);
     transform: transition all .3s linear;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
  
 }
 
 .lighthouse_cmn_left li a:hover{
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .lighthouse_cmn_right{
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 /* ========================================
     Lighthouse cmn page end/transport
