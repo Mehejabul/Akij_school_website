@@ -2805,3 +2805,36 @@ Online addmission page End
 /* ========================================
     Summer camp pages end
 ===========================================*/
+
+/* ========================================
+    campus details start
+===========================================*/
+.facilities_unique_pera ul li{
+  list-style: show;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.facilities_unique_pera ul li p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.facilities_unique_pera{
+    margin: 30px 0px;
+}
+
+.facilities_cmn_pera h3{
+    font-size: 25px;
+    color: var(--blue-color);
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.facilities_cmn_pera p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+/* ========================================
+    campus details end
+===========================================*/
