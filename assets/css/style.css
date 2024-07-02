@@ -2796,6 +2796,12 @@ Online addmission page End
     text-align: center;
     margin: 50px 0px;
 }
+
+.element_spacer{
+    width: 100%;
+    background-color: var(--blue-color);
+    height: 60px;
+}
 /* ========================================
     Summer camp pages end
 ===========================================*/
