@@ -2484,7 +2484,7 @@ Online addmission page End
 /* =======================================
     Lighthouse cmn page start/ transport
 ==========================================*/
-.lighthouse_cmn_banner{
+.lighthouse_cmn_banner {
     background-position: center !important;
     background-size: cover !important;
     width: 100% !important;
@@ -2494,18 +2494,18 @@ Online addmission page End
     position: relative;
 }
 
-.lighthouse_cmn_overlay{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100vh;
-background-color: #000000;
-opacity: 0.6;
-z-index: 1;
+.lighthouse_cmn_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
 }
 
-.lighthouse_cmn_overlay h2{
+.lighthouse_cmn_overlay h2 {
     top: 50%;
     left: 50%;
     position: absolute;
@@ -2517,12 +2517,12 @@ z-index: 1;
     font-weight: 600;
 }
 
-.lighthouse_cmn_left{
+.lighthouse_cmn_left {
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.lighthouse_cmn_left li a{
+.lighthouse_cmn_left li a {
     width: 100%;
     background: var(--blue-color);
     color: var(--black-color);
@@ -2532,17 +2532,270 @@ z-index: 1;
     transform: transition all .3s linear;
     font-size: 25px;
     font-weight: 600;
- 
+
 }
 
-.lighthouse_cmn_left li a:hover{
+.lighthouse_cmn_left li a:hover {
     color: var(--white-color);
 }
 
-.lighthouse_cmn_right{
+.lighthouse_cmn_right {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
 /* ========================================
     Lighthouse cmn page end/transport
+===========================================*/
+
+/* ========================================
+    iellts banner start
+===========================================*/
+.ielts_banner {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 90vh !important;
+    margin-bottom: 40px;
+    background-repeat: no-repeat !important;
+    position: relative;
+}
+
+.ielts_banner_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.ielts_banner_contet {
+    position: absolute;
+    top: 50%;
+    z-index: 99999;
+    margin-top: -100px;
+}
+
+.ielts_banner_title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--white-color);
+}
+
+.ielts_banner_subtitle p {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.ielts_btn {
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transform: transition all .3s linear;
+    margin-right: 15px;
+}
+
+.ielts_btn:hover {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.ielts_programme_title h4 {
+    font-size: 40px;
+    color: var(--blue-color);
+    font-size: 800;
+}
+
+.ielts_programme_pera p {
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.ielts_program_content {
+    margin: 30px 0px;
+}
+
+.ielts_middle_banner {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 500px !important;
+    margin-bottom: 40px;
+    background-repeat: no-repeat !important;
+    position: relative;
+}
+
+.banner_box_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 99999;
+    background-color: var(--blue-color);
+}
+
+.ielts_middle_banner_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+}
+
+.ielts_middle_banner_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ielts_middle_banner_box {
+    background-color: var(--blue-color);
+
+}
+
+.ielts_middle_banner_title p {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    padding: 30px 100px;
+}
+
+.ielts_card {
+    background-color: #ecf0f1;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+.ielts_card_image img {
+    border-radius: 5px;
+}
+
+.ielts_card_title p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--blue-color);
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+
+.ielts_card_pera p {
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    margin-top: 20px;
+    margin: 15px 0px;
+}
+
+.ielts_card_section {
+    margin: 100px 0px;
+}
+
+.ielts_regular_title h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--blue-color);
+    margin: 20px 0px;
+}
+
+.ielts_regular_subtitle p {
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.ielts_regular_btn {
+    margin: 20px 0px;
+}
+
+.ielts_regular_left {
+    margin: 50px 0px;
+}
+
+.ielts_regular_section {
+    margin: 50px 0px;
+}
+
+.success_card {
+    padding: 15px 20px;
+    text-align: justify;
+}
+
+.success_card_title h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.success_card_pera{
+    padding: 20px 0px;
+    text-align: justify;
+    line-height: 1.9;
+}
+.success_card_pera2{
+    text-align: center;
+}
+
+.success_card_btn{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/* ========================================
+    iellts banner end
+===========================================*/
+
+/* ========================================
+    Summer camp pages start
+===========================================*/
+.summer_camp_front_design{
+  margin: 50px;
+}
+
+.summer_camp_rlt_design{
+    margin: 50px 0px;
+}
+
+.summer_camp_image img{
+    border-radius: 10px;
+}
+
+.summer_camp_content h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--blue-color);
+}
+
+.summer_camp_content p{
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.summer_camp_body{
+    margin: 50px 0px;
+}
+.summer_camp_btn{
+    text-align: center;
+    margin: 50px 0px;
+}
+/* ========================================
+    Summer camp pages end
 ===========================================*/
