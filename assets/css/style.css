@@ -2881,3 +2881,58 @@ Online addmission page End
 /* ========================================
     contact page end
 ===========================================*/
+
+/* ========================================
+    Login page design start
+===========================================*/
+.login_body{
+    position: relative;
+    height: 100vh;
+}
+.login_card{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.login_card_title{
+    text-align: center;
+}
+
+.sign_in_btn{
+    width: 100%;
+    background-color: var(--blue-color);
+    padding: 15px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.defualt_text{
+    text-align: center;
+}
+.defualt_text p{
+    font-size: 20px;
+    color: var(--blue-color);
+    margin: 20px 0px;
+}
+
+.sign_in_google img{
+    height: 80px;
+    width: 350px;
+}
+
+.login_general_text{
+    margin: 20px 0px;
+}
+
+.login_general_text p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ========================================
+    Login page design end
+===========================================*/
