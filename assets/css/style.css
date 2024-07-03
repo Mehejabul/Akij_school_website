@@ -2838,3 +2838,46 @@ Online addmission page End
 /* ========================================
     campus details end
 ===========================================*/
+
+/* ========================================
+    contact page start
+===========================================*/
+.contact_us_body{
+    background-color: var(--black-color) !important;
+}
+.contuct_overlay{
+    left: 10%;
+}
+
+.contact_content{
+    padding: 100px 0px;
+}
+
+.location_map iframe{
+  height: 380px;
+  width: 100%;
+}
+.address_location h3{
+    padding-bottom: 20px;
+}
+.contuct_us_section{
+    margin-top: 20px 0px;
+}
+
+.address_location p{
+      font-size: 18px;
+      color: var(--white-color);
+}
+
+.address_location a{
+    color: var(--blue-color);
+}
+
+.address_location i{
+    margin-right: 15px;
+    color: var(--white-color);
+}
+
+/* ========================================
+    contact page end
+===========================================*/
