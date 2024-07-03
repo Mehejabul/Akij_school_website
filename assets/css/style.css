@@ -100,7 +100,6 @@ body {
 
 .cmn_btn_hov {
     padding: 15px 20px;
-    border: 1px solid var(--black-color);
     color: var(--white-color);
     background-color: var(--blue-color);
     border-radius: 50px;
@@ -111,7 +110,7 @@ body {
 }
 
 .cmn_btn_hov:hover {
-    background-color: var(--orange-color);
+    background-color: var(--black-color);
 }
 
 .banner_rating i {
@@ -203,7 +202,7 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
 }
 
 .dropdown-menu li a:hover {
-    color: var(--orange-color);
+    color: var(--black-color);
 }
 
 .offcanvas-backdrop.show {
