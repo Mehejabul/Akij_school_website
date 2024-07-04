@@ -237,6 +237,39 @@
 }
 /* news media end */
 
+/* CONTUCT US PAGE */
+
+.hero_section {
+    height: 270px !important;
+}
+.hero_section_overlay p {
+    top: 35%;
+    left: 30%;
+    transform: translate(-35%, -30%);
+    font-size: 18px;
+}
+.contact_content {
+    padding: 40px 0px;
+}
+
+/* LOGIN PAGE START */
+.login_body {
+    height: 200vh;
+}
+
+.login_card {
+    width: 330PX;
+}
+
+/* ABOUT-US PAGE */
+.mission_title h2 {
+    font-size: 25px;
+}
+
+.flipcard {
+    margin: 15px 0px;
+}
+
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
@@ -320,8 +353,134 @@
         height: 300px;
         width: 300px;
     }
-    
+
+    .hero_section_overlay p {
+        top: 50%;
+        left: 30%;
     }
 
+    .hero_section_overlay p {
+        left: 30%;
+    }
 
- 
+    .principale_massage_title h2::before {
+        left: 450px;
+    }
+
+    .principale_massage_title h2::after {
+        right: 430px;
+    }
+
+    .login_body {
+        position: relative;
+        height: 190vh;
+    }
+
+    }
+
+    @media only screen and (max-width: 1399px) and (min-width: 1200px) {
+
+        .school_logo img {
+            height: 100px;
+            width: 250px;
+        }
+        .cmn_btn {
+            font-size: 12px;
+        }
+    
+        .top_logo {
+            width: 30%;
+            padding: 20px 0px;
+        }
+    
+        .top_head_button {
+            width: 50%;
+        }
+    
+    
+        .top_social_icon {
+            padding: 50px 0px;
+            width: 20%;
+        }
+    
+        .banner_rating {
+            margin-right: -32px;
+            padding-top: 13px;
+        }
+    
+        .about_heading h2 {
+            font-size: 25px;
+        }
+    
+        .nav-item {
+            margin-right: 8px;
+        }
+    
+        .navbar-expand-lg .navbar-nav .nav-link {
+            font-size: 10px;
+        }
+    
+        .image_wrapper {
+            margin-top: 93px;
+            margin-left: 40px;
+        }
+    
+        .up_image img {
+            max-width: 270px;
+        }
+    
+        .down_image {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+        }
+    
+        .down_image img {
+            max-width: 270px;
+        }
+    
+        .banner_middle_text h2 {
+            font-size: 48px;
+        }
+    
+        .auto_height {
+            height: 200px;
+        }
+    
+        .specification_content_text h2 {
+            font-size: 15px;
+        }
+    
+        .specification_content_text {
+            margin: 0px 10px;
+            height: auto
+        }
+    
+        .left_news_media {
+            height: 300px;
+            width: 300px;
+        }
+    
+        .hero_section_overlay p {
+            top: 50%;
+            left: 30%;
+        }
+    
+        .hero_section_overlay p {
+            left: 30%;
+        }
+    
+        .principale_massage_title h2::before {
+            left: 450px;
+        }
+    
+        .principale_massage_title h2::after {
+            right: 430px;
+        }
+    
+        .login_body {
+            position: relative;
+            height: 190vh;
+        }
+    
+        }

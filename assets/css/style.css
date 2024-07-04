@@ -1248,6 +1248,7 @@ ul#myTab {
 .tab_button_area .nav-tabs {
     border: none;
     margin-bottom: 20px;
+    margin-left: 400px;
 }
 
 .tab_section {
