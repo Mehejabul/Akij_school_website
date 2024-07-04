@@ -1,3 +1,4 @@
+
 /* Mobile s */
 @media only screen and (max-width: 374px) and (min-width: 320px) {}
 
@@ -236,23 +237,91 @@
 }
 /* news media end */
 
-
-/* small device */
-@media only screen and (max-width: 576px) and (min-width: 320px) {
-
 }
 
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .school_logo img {
+        height: 100px;
+        width: 250px;
+    }
+    .cmn_btn {
+        font-size: 12px;
+    }
+
+    .top_logo {
+        width: 30%;
+        padding: 20px 0px;
+    }
+
+    .top_head_button {
+        width: 50%;
+    }
 
 
+    .top_social_icon {
+        padding: 50px 0px;
+        width: 20%;
+    }
 
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+    .banner_rating {
+        margin-right: -32px;
+        padding-top: 13px;
+    }
 
- Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+    .about_heading h2 {
+        font-size: 25px;
+    }
 
- X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+    .nav-item {
+        margin-right: 8px;
+    }
 
- XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... } */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 10px;
+    }
+
+    .image_wrapper {
+        margin-top: 93px;
+        margin-left: 40px;
+    }
+
+    .up_image img {
+        max-width: 270px;
+    }
+
+    .down_image {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+
+    .down_image img {
+        max-width: 270px;
+    }
+
+    .banner_middle_text h2 {
+        font-size: 48px;
+    }
+
+    .auto_height {
+        height: 150px;
+    }
+
+    .specification_content_text h2 {
+        font-size: 15px;
+    }
+
+    .specification_content_text {
+        margin: 0px 10px;
+        height: auto
+    }
+
+    .left_news_media {
+        height: 300px;
+        width: 300px;
+    }
+    
+    }
+
+
+ 
